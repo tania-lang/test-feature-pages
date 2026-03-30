@@ -93,7 +93,7 @@
     .hp-s{background:var(--sage);color:var(--dark)}
     .hp-r{background:var(--salmon);color:var(--dark)}
     .hp-o{background:transparent;border:1.5px solid rgba(255,255,255,.2);color:var(--cream)}
-    .hero-avatar{position:absolute;right:20px;top:50%;transform:translateY(-50%);width:200px;height:200px}
+    .hero-avatar{position:absolute;right:20px;top:50%;transform:translateY(-50%);width:200px;height:200px;opacity:.35}
     .cur{position:absolute;display:flex;align-items:center;gap:4px;z-index:5}
     .cur svg{width:14px;height:14px}
     .cur-n{padding:5px 12px;border-radius:50px;font-size:12px;font-weight:600}
@@ -264,21 +264,21 @@
       <div class="hero-card">
         <svg class="hero-avatar" viewBox="0 0 220 220" fill="none">
           <!-- Head -->
-          <circle cx="110" cy="65" r="35" stroke="rgba(255,255,255,.8)" stroke-width="1.2"/>
+          <circle cx="110" cy="65" r="35" stroke="rgba(255,255,255,.8)" stroke-width="1.8"/>
           <!-- Body/shoulders -->
-          <path d="M55 160 C55 125 80 105 110 105 C140 105 165 125 165 160" stroke="rgba(255,255,255,.6)" stroke-width="1.2" fill="none"/>
+          <path d="M55 160 C55 125 80 105 110 105 C140 105 165 125 165 160" stroke="rgba(255,255,255,.8)" stroke-width="2" fill="none"/>
           <!-- Podium/desk -->
-          <rect x="40" y="155" width="140" height="8" rx="4" stroke="rgba(255,255,255,.4)" stroke-width="1"/>
+          <rect x="40" y="155" width="140" height="8" rx="4" stroke="rgba(255,255,255,.7)" stroke-width="1.5"/>
           <!-- Script lines -->
-          <line x1="75" y1="180" x2="145" y2="180" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-          <line x1="80" y1="190" x2="140" y2="190" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-          <line x1="85" y1="200" x2="135" y2="200" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+          <line x1="75" y1="180" x2="145" y2="180" stroke="rgba(255,255,255,.6)" stroke-width="1.5"/>
+          <line x1="80" y1="190" x2="140" y2="190" stroke="rgba(255,255,255,.5)" stroke-width="1.5"/>
+          <line x1="85" y1="200" x2="135" y2="200" stroke="rgba(255,255,255,.4)" stroke-width="1.5"/>
           <!-- Play indicator -->
-          <circle cx="110" cy="65" r="12" fill="none" stroke="rgba(226,168,75,.5)" stroke-width="1"/>
-          <polygon points="106,58 106,72 118,65" fill="rgba(226,168,75,.4)"/>
+          <circle cx="110" cy="65" r="12" fill="none" stroke="rgba(226,168,75,.8)" stroke-width="1.5"/>
+          <polygon points="106,58 106,72 118,65" fill="rgba(226,168,75,.8)"/>
           <!-- Recording dot -->
-          <circle cx="165" cy="45" r="5" fill="rgba(232,75,75,.4)"/>
-          <circle cx="165" cy="45" r="2.5" fill="rgba(232,75,75,.6)"/>
+          <circle cx="165" cy="45" r="5" fill="rgba(232,75,75,.8)"/>
+          <circle cx="165" cy="45" r="2.5" fill="rgba(232,75,75,.9)"/>
         </svg>
         <div class="hero-card-title">Pick an avatar.<br/>Type your <em>script</em>.</div>
         <div class="hero-pills">
